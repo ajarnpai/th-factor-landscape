@@ -1,0 +1,233 @@
+[
+  {
+    "name": "Fama-French Six",
+    "factors": [
+      "mkt",
+      "smb",
+      "hml",
+      "rmw",
+      "cma",
+      "umd"
+    ],
+    "labels": [
+      "MKT",
+      "SMB",
+      "HML",
+      "RMW",
+      "CMA",
+      "UMD"
+    ],
+    "color": "#1e3a5f",
+    "index": 0
+  },
+  {
+    "name": "q-Factors (HXZ)",
+    "factors": [
+      "me",
+      "ia",
+      "roe"
+    ],
+    "labels": [
+      "ME",
+      "IA",
+      "ROE"
+    ],
+    "color": "#2d7d9a",
+    "index": 1
+  },
+  {
+    "name": "Behavioral",
+    "factors": [
+      "pead",
+      "fin"
+    ],
+    "labels": [
+      "PEAD",
+      "FIN"
+    ],
+    "color": "#7b2d8e",
+    "index": 2
+  },
+  {
+    "name": "QMJ",
+    "factors": [
+      "qmj",
+      "prof",
+      "grow",
+      "safe"
+    ],
+    "labels": [
+      "QMJ",
+      "PROF",
+      "GROW",
+      "SAFE"
+    ],
+    "color": "#c4523e",
+    "index": 3
+  },
+  {
+    "name": "Low-Risk",
+    "factors": [
+      "bab",
+      "vol",
+      "ivol",
+      "max"
+    ],
+    "labels": [
+      "BAB",
+      "VOL",
+      "IVOL",
+      "MAX"
+    ],
+    "color": "#2a8a4a",
+    "index": 4
+  },
+  {
+    "name": "Momentum",
+    "factors": [
+      "mom6",
+      "mom1"
+    ],
+    "labels": [
+      "MOM6",
+      "MOM1"
+    ],
+    "color": "#d4a017",
+    "index": 5
+  },
+  {
+    "name": "Value",
+    "factors": [
+      "sp",
+      "ocp",
+      "dp",
+      "cfp",
+      "a_me",
+      "ebp",
+      "bm_adj_sga",
+      "bm_adj_sga2",
+      "ep"
+    ],
+    "labels": [
+      "SP",
+      "OCP",
+      "DP",
+      "CFP",
+      "A/ME",
+      "EBP",
+      "BM SGA",
+      "BM SGA2",
+      "EP"
+    ],
+    "color": "#3a7ca5",
+    "index": 6
+  },
+  {
+    "name": "Profitability",
+    "factors": [
+      "rec_turnover",
+      "cfoa",
+      "ato",
+      "ol",
+      "ti_bi",
+      "pm",
+      "cbop",
+      "gpa",
+      "roe_ann",
+      "roa_ann",
+      "cto",
+      "gmar",
+      "rnoa"
+    ],
+    "labels": [
+      "REC TURN",
+      "CFOA",
+      "ATO",
+      "OL",
+      "TI/BI",
+      "PM",
+      "CBOP",
+      "GPA",
+      "ROE",
+      "ROA",
+      "CTO",
+      "GMAR",
+      "RNOA"
+    ],
+    "color": "#e07830",
+    "index": 7
+  },
+  {
+    "name": "Investment",
+    "factors": [
+      "eiss",
+      "nsi",
+      "oa",
+      "nxf",
+      "ivg",
+      "ivc",
+      "ig",
+      "noa",
+      "dpia",
+      "poa"
+    ],
+    "labels": [
+      "EISS",
+      "NSI",
+      "OA",
+      "NXF",
+      "IVG",
+      "IVC",
+      "IG",
+      "NOA",
+      "DPIA",
+      "POA"
+    ],
+    "color": "#5b6abf",
+    "index": 8
+  },
+  {
+    "name": "Quality",
+    "factors": [
+      "acc_qmj",
+      "dcfoa",
+      "lev",
+      "lev_full",
+      "dgpoa",
+      "dgmar",
+      "droa",
+      "droe",
+      "zscore_book",
+      "zscore_mkt"
+    ],
+    "labels": [
+      "ACC",
+      "DCFOA",
+      "LEV",
+      "LEV FULL",
+      "DGPOA",
+      "DGMAR",
+      "DROA",
+      "DROE",
+      "Z BOOK",
+      "Z MKT"
+    ],
+    "color": "#8a6d5b",
+    "index": 9
+  },
+  {
+    "name": "Trading / Liquidity",
+    "factors": [
+      "turn",
+      "str",
+      "illiq"
+    ],
+    "labels": [
+      "TURN",
+      "STR",
+      "ILLIQ"
+    ],
+    "color": "#888888",
+    "index": 10
+  }
+]
