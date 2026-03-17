@@ -146,8 +146,8 @@ DESCRIPTIONS = {
     "ia": "Investment factor from the q-factor model: low minus high total asset growth.",
     "roe": "Profitability factor from the q-factor model: high minus low return on equity.",
     # Behavioral
-    "pead": "Post-Earnings Announcement Drift: stocks with positive earnings surprises continue to outperform.",
-    "fin": "Composite financing: firms issuing equity and debt tend to underperform.",
+    "pead": "Post-Earnings Announcement Drift (DHS long-horizon factor): stocks with positive earnings surprises continue to outperform.",
+    "fin": "Composite Financing (DHS short-horizon factor): firms issuing equity and debt tend to underperform.",
     # QMJ
     "qmj": "Quality Minus Junk: composite of profitability, growth, safety, and payout signals.",
     "prof": "QMJ profitability component: composite of margin, return, and cash flow measures.",
