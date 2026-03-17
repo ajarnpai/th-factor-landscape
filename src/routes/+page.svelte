@@ -50,7 +50,7 @@
         Follow my work &rarr;
       </a>
       <a href="https://www.youtube.com/@ajarnpai" target="_blank" rel="noopener" class="footer-cta footer-cta-yt">
-        Ajarn Pai YouTube &rarr;
+        My YouTube Channel &rarr;
       </a>
     </div>
   </div>
