@@ -7,7 +7,7 @@
   const groupInfo = {
     "Fama-French Six": "The foundational six factors: market, size, value, profitability, investment, and momentum.",
     "q-Factors (HXZ)": "Hou, Xue, and Zhang's q-factor model: size, investment, and profitability.",
-    "Behavioral": "Daniel, Hirshleifer, and Sun (2020) short- and long-horizon behavioral factors: post-earnings announcement drift and composite financing.",
+    "Behavioral (DHS)": "Daniel, Hirshleifer, and Sun (2020) short- and long-horizon behavioral factors: post-earnings announcement drift and composite financing.",
     "QMJ": "Asness, Frazzini, and Pedersen's quality-minus-junk composite and its components.",
     "Low-Risk": "Betting-against-beta, volatility, idiosyncratic volatility, and lottery demand.",
     "Momentum": "Six-month momentum and one-month short-term reversal.",

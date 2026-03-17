@@ -163,7 +163,7 @@
   },
   {
     "name": "pead",
-    "group": "Behavioral",
+    "group": "Behavioral (DHS)",
     "label": "PEAD",
     "groupIndex": 2,
     "factorIndex": 0,
@@ -181,7 +181,7 @@
   },
   {
     "name": "fin",
-    "group": "Behavioral",
+    "group": "Behavioral (DHS)",
     "label": "FIN",
     "groupIndex": 2,
     "factorIndex": 1,

@@ -25,7 +25,7 @@ GROUPS = [
         "labels": ["ME", "IA", "ROE"],
     },
     {
-        "name": "Behavioral",
+        "name": "Behavioral (DHS)",
         "factors": ["pead", "fin"],
         "labels": ["PEAD", "FIN"],
     },
@@ -85,7 +85,7 @@ GROUPS = [
 GROUP_COLORS = {
     "Fama-French Six":     "#1e3a5f",
     "q-Factors (HXZ)":     "#2d7d9a",
-    "Behavioral":          "#7b2d8e",
+    "Behavioral (DHS)":          "#7b2d8e",
     "QMJ":                 "#c4523e",
     "Low-Risk":            "#2a8a4a",
     "Momentum":            "#d4a017",
