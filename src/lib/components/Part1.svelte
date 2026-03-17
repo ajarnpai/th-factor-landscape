@@ -27,7 +27,7 @@
          target="_blank" rel="noopener">
         "Digesting anomalies: A q-factor approach for the Thai market"
       </a>
-      (Charoenwong, Nettayanun, Saengchote, 2021) and the
+      (Charoenwong, Nettayanun, Saengchote, 2021) and the CMDF-funded
       <a href="https://dashboard.factorlibrary.app/"
          target="_blank" rel="noopener">Factor Library</a>
       to present a broader replication: 66 well-known factors from the
