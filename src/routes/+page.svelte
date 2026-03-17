@@ -45,6 +45,9 @@
   <div class="footer-content">
     <p class="footer-credit">Kanis Saengchote &middot; Chulalongkorn Business School</p>
     <p class="footer-sub">Co-created with Claude Code</p>
+    <a href="https://www.ajarnpai.com/" target="_blank" rel="noopener" class="footer-cta">
+      Follow my work &rarr;
+    </a>
   </div>
 </footer>
 
@@ -136,6 +139,24 @@
   .footer-sub {
     font-size: 0.78rem;
     color: var(--color-text-muted);
+  }
+  .footer-cta {
+    display: inline-block;
+    margin-top: 1.25rem;
+    padding: 0.6rem 1.5rem;
+    font-family: var(--font-display);
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--color-accent);
+    border: 1.5px solid var(--color-accent);
+    border-radius: 4px;
+    transition: background 0.2s, color 0.2s;
+    letter-spacing: -0.01em;
+  }
+  .footer-cta:hover {
+    background: var(--color-accent);
+    color: #fff;
+    border-bottom-color: var(--color-accent);
   }
 
   @media (max-width: 640px) {
