@@ -86,11 +86,15 @@
     "name": "Momentum",
     "factors": [
       "mom6",
-      "mom1"
+      "mom1",
+      "sue",
+      "rs"
     ],
     "labels": [
       "MOM6",
-      "MOM1"
+      "MOM1",
+      "SUE",
+      "RS"
     ],
     "color": "#d4a017",
     "index": 5
@@ -138,8 +142,6 @@
       "cto",
       "gmar",
       "rnoa",
-      "sue",
-      "rs",
       "roeq",
       "roaq",
       "gpq",
@@ -160,8 +162,6 @@
       "CTO",
       "GMAR",
       "RNOA",
-      "SUE",
-      "RS",
       "ROE-q",
       "ROA-q",
       "GP-q",

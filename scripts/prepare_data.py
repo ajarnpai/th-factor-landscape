@@ -41,8 +41,8 @@ GROUPS = [
     },
     {
         "name": "Momentum",
-        "factors": ["mom6", "mom1"],
-        "labels": ["MOM6", "MOM1"],
+        "factors": ["mom6", "mom1", "sue", "rs"],
+        "labels": ["MOM6", "MOM1", "SUE", "RS"],
     },
     {
         "name": "Value",
@@ -56,11 +56,11 @@ GROUPS = [
         "factors": ["rec_turnover", "cfoa", "ato", "ol", "ti_bi",
                      "pm", "cbop", "gpa", "roe_ann", "roa_ann",
                      "cto", "gmar", "rnoa",
-                     "sue", "rs", "roeq", "roaq", "gpq", "earn_acc", "nei"],
+                     "roeq", "roaq", "gpq", "earn_acc", "nei"],
         "labels": ["REC TURN", "CFOA", "ATO", "OL", "TI/BI",
                     "PM", "CBOP", "GPA", "ROE", "ROA",
                     "CTO", "GMAR", "RNOA",
-                    "SUE", "RS", "ROE-q", "ROA-q", "GP-q", "EARN-ACC", "NEI"],
+                    "ROE-q", "ROA-q", "GP-q", "EARN-ACC", "NEI"],
     },
     {
         "name": "Investment",
