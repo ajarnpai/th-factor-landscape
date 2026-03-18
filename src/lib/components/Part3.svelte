@@ -16,7 +16,7 @@
       <h3>Methodology</h3>
       <ul>
         <li><strong>Sample:</strong> SET common stocks, July 2001 &ndash; December 2025 (370 months)</li>
-        <li><strong>Construction:</strong> 2&times;3 double-sort (size &times; signal), 30/70 breakpoints, value-weighted portfolios. Best method selected per factor from five candidates: 2&times;3 VW (30/70), 2&times;3 VW (20/80), 2&times;3 EW, BAB rank-weighted, and overlap-K</li>
+        <li><strong>Construction:</strong> 2&times;3 double-sort (size &times; signal), 30/70 breakpoints, value-weighted portfolios</li>
         <li><strong>Size breakpoint:</strong> 90th percentile cumulative market capitalization</li>
         <li><strong>Data source:</strong> SETSMART database</li>
         <li><strong>t-statistics:</strong> mean / standard error (unadjusted); threshold |t| &gt; 3.0</li>
