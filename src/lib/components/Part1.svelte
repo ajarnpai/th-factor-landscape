@@ -30,13 +30,13 @@
       (Charoenwong, Nettayanun, Saengchote, 2021) and the CMDF-funded and SET-supported
       <a href="https://dashboard.factorlibrary.app/"
          target="_blank" rel="noopener">Factor Library</a>
-      to present a broader replication: 66 well-known factors from the
+      to present a broader replication: 81 well-known factors from the
       global asset pricing literature, tested on the Stock Exchange of Thailand.
     </p>
   </div>
 
   <div class="stats-row">
-    <StatCallout value={66} label="factors tested" />
+    <StatCallout value={81} label="factors tested" />
     <StatCallout value={370} label="months of data" suffix="+" />
     <StatCallout value={1100} label="securities" suffix="+" />
   </div>

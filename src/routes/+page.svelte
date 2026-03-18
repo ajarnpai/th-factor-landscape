@@ -27,7 +27,7 @@
       <div class="scatter-header">
         <h2>Risk and Return</h2>
         <p class="section-subtitle">
-          Annualized return vs. volatility for all 66 factors.
+          Annualized return vs. volatility for all 81 factors.
           Dot size reflects |t-statistic|. Dashed lines show constant Sharpe ratio contours.
         </p>
       </div>
