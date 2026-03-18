@@ -222,9 +222,10 @@ DESCRIPTIONS = {
     "oscore": "Ohlson O-Score: accounting-based probability of bankruptcy; low-distress firms outperform.",
     "diss": "Debt Issuance: log change in long-term debt — firms reducing debt outperform those increasing it.",
     "npop": "Net Payout to Price: count of years with positive net payout relative to price — consistent payout signals quality.",
-    # Profitability (quarterly)
+    # Momentum (quarterly)
     "sue": "Standardized Unexpected Earnings: quarterly earnings surprise scaled by historical standard deviation — earnings momentum.",
     "rs": "Revenue Surprise: year-over-year sales change scaled by historical standard deviation — revenue momentum.",
+    # Profitability (quarterly)
     "roeq": "Quarterly ROE: quarterly earnings divided by book equity — more timely signal than annual ROE.",
     "roaq": "Quarterly ROA: quarterly earnings divided by total assets — more timely signal than annual ROA.",
     "gpq": "Quarterly Gross Profitability: gross profit divided by lagged total assets, updated quarterly.",

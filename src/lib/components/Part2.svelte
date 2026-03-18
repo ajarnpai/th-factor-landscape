@@ -10,11 +10,11 @@
     "Behavioral (DHS)": "Daniel, Hirshleifer, and Sun (2020) short- and long-horizon behavioral factors: post-earnings announcement drift and composite financing.",
     "QMJ": "Asness, Frazzini, and Pedersen's quality-minus-junk composite and its components.",
     "Low-Risk": "Betting-against-beta, volatility, idiosyncratic volatility, and lottery demand.",
-    "Momentum": "Six-month momentum and one-month short-term reversal.",
+    "Momentum": "Price and earnings momentum: six-month momentum, one-month short-term reversal, standardized unexpected earnings (SUE), and revenue surprise (RS).",
     "Value": "Nine measures of cheapness: earnings, cash flow, sales, dividends, and book value ratios.",
-    "Profitability": "Thirteen measures spanning margins, turnover, and return on assets or equity.",
-    "Investment": "Ten measures of asset growth, issuance, and capital allocation.",
-    "Quality": "Ten measures including accruals, leverage, distress scores, and growth stability.",
+    "Profitability": "Eighteen measures spanning margins, turnover, return on assets or equity, and quarterly profitability.",
+    "Investment": "Twelve measures of asset growth, issuance, accruals, and capital allocation.",
+    "Quality": "Sixteen measures including accruals, leverage, distress scores, earnings volatility, and growth stability.",
     "Trading / Liquidity": "Turnover, short-term reversal, and illiquidity.",
   };
 
@@ -27,7 +27,7 @@
   <div class="part2-header">
     <h2>Results by Category</h2>
     <p class="section-subtitle">
-      All 66 factors by t-statistic. Click a category to highlight.
+      All 81 factors by t-statistic. Click a category to highlight.
       The dashed line marks the multiple-testing threshold (|t| > 3.0).
     </p>
   </div>
