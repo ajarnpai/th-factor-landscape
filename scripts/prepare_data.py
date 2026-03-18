@@ -7,9 +7,9 @@ import json
 import csv
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent.parent
-ANOMALY_DIR = ROOT / "results" / "anomalies"
-OUT_DIR = ROOT / "dashboard" / "src" / "lib" / "data"
+ROOT = Path(__file__).resolve().parent.parent
+ANOMALY_DIR = Path(r"C:\Users\ksaen\OneDrive - ACC-Chulalongkorn University\research\ai-assisted\setsmart-projects\agentic-factor-investing\results\anomalies")
+OUT_DIR = ROOT / "src" / "lib" / "data"
 
 # ── Group mapping (from visualize_anomalies_v2.R lines 35-90) ──────────
 
@@ -55,24 +55,32 @@ GROUPS = [
         "name": "Profitability",
         "factors": ["rec_turnover", "cfoa", "ato", "ol", "ti_bi",
                      "pm", "cbop", "gpa", "roe_ann", "roa_ann",
-                     "cto", "gmar", "rnoa"],
+                     "cto", "gmar", "rnoa",
+                     "sue", "rs", "roeq", "roaq", "gpq", "earn_acc", "nei"],
         "labels": ["REC TURN", "CFOA", "ATO", "OL", "TI/BI",
                     "PM", "CBOP", "GPA", "ROE", "ROA",
-                    "CTO", "GMAR", "RNOA"],
+                    "CTO", "GMAR", "RNOA",
+                    "SUE", "RS", "ROE-q", "ROA-q", "GP-q", "EARN-ACC", "NEI"],
     },
     {
         "name": "Investment",
         "factors": ["eiss", "nsi", "oa", "nxf", "ivg", "ivc",
-                     "ig", "noa", "dpia", "poa"],
+                     "ig", "noa", "dpia", "poa",
+                     "ccc", "accrq"],
         "labels": ["EISS", "NSI", "OA", "NXF", "IVG", "IVC",
-                    "IG", "NOA", "DPIA", "POA"],
+                    "IG", "NOA", "DPIA", "POA",
+                    "CCC", "ACCRQ"],
     },
     {
         "name": "Quality",
         "factors": ["acc_qmj", "dcfoa", "lev", "lev_full", "dgpoa",
-                     "dgmar", "droa", "droe", "zscore_book", "zscore_mkt"],
+                     "dgmar", "droa", "droe", "zscore_book", "zscore_mkt",
+                     "evol", "zscore_q", "cfvol",
+                     "oscore", "diss", "npop"],
         "labels": ["ACC", "DCFOA", "LEV", "LEV FULL", "DGPOA",
-                    "DGMAR", "DROA", "DROE", "Z BOOK", "Z MKT"],
+                    "DGMAR", "DROA", "DROE", "Z BOOK", "Z MKT",
+                    "EVOL", "Z-q", "CFVOL",
+                    "OSCORE", "DISS", "NPOP"],
     },
     {
         "name": "Trading / Liquidity",
@@ -207,6 +215,24 @@ DESCRIPTIONS = {
     "droe": "Change in ROE: year-over-year improvement in return on equity.",
     "zscore_book": "Altman Z-Score (book): financial distress measure using only accounting data.",
     "zscore_mkt": "Altman Z-Score (market): financial distress measure using market value of equity.",
+    # Quality (additional)
+    "evol": "Earnings Volatility: 20-quarter standard deviation of quarterly ROE — stable earners outperform.",
+    "zscore_q": "Altman Z-Score (quarterly): financial distress measure updated quarterly using accounting data.",
+    "cfvol": "Cash Flow Volatility: 16-quarter standard deviation of operating cash flow to sales — stable cash flows signal quality.",
+    "oscore": "Ohlson O-Score: accounting-based probability of bankruptcy; low-distress firms outperform.",
+    "diss": "Debt Issuance: log change in long-term debt — firms reducing debt outperform those increasing it.",
+    "npop": "Net Payout to Price: count of years with positive net payout relative to price — consistent payout signals quality.",
+    # Profitability (quarterly)
+    "sue": "Standardized Unexpected Earnings: quarterly earnings surprise scaled by historical standard deviation — earnings momentum.",
+    "rs": "Revenue Surprise: year-over-year sales change scaled by historical standard deviation — revenue momentum.",
+    "roeq": "Quarterly ROE: quarterly earnings divided by book equity — more timely signal than annual ROE.",
+    "roaq": "Quarterly ROA: quarterly earnings divided by total assets — more timely signal than annual ROA.",
+    "gpq": "Quarterly Gross Profitability: gross profit divided by lagged total assets, updated quarterly.",
+    "earn_acc": "Earnings Acceleration: second derivative of quarterly earnings — positive values signal accelerating profitability.",
+    "nei": "Number of Earnings Increases: count of year-over-year earnings increases in the past 8 quarters (earnings streak).",
+    # Investment (quarterly)
+    "ccc": "Cash Conversion Cycle: days inventory outstanding plus days receivables outstanding minus days payable outstanding — high CCC signals capital inefficiency.",
+    "accrq": "Quarterly Accruals: quarterly earnings minus operating cash flow divided by assets — high accruals signal lower earnings quality.",
     # Trading / Liquidity
     "turn": "Share Turnover: trading volume relative to market value — low turnover stocks tend to earn a premium.",
     "str": "Short-Term Reversal: last month's return — losers bounce back, winners pull back.",

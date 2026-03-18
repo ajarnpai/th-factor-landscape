@@ -137,7 +137,14 @@
       "roa_ann",
       "cto",
       "gmar",
-      "rnoa"
+      "rnoa",
+      "sue",
+      "rs",
+      "roeq",
+      "roaq",
+      "gpq",
+      "earn_acc",
+      "nei"
     ],
     "labels": [
       "REC TURN",
@@ -152,7 +159,14 @@
       "ROA",
       "CTO",
       "GMAR",
-      "RNOA"
+      "RNOA",
+      "SUE",
+      "RS",
+      "ROE-q",
+      "ROA-q",
+      "GP-q",
+      "EARN-ACC",
+      "NEI"
     ],
     "color": "#e07830",
     "index": 7
@@ -169,7 +183,9 @@
       "ig",
       "noa",
       "dpia",
-      "poa"
+      "poa",
+      "ccc",
+      "accrq"
     ],
     "labels": [
       "EISS",
@@ -181,7 +197,9 @@
       "IG",
       "NOA",
       "DPIA",
-      "POA"
+      "POA",
+      "CCC",
+      "ACCRQ"
     ],
     "color": "#5b6abf",
     "index": 8
@@ -198,7 +216,13 @@
       "droa",
       "droe",
       "zscore_book",
-      "zscore_mkt"
+      "zscore_mkt",
+      "evol",
+      "zscore_q",
+      "cfvol",
+      "oscore",
+      "diss",
+      "npop"
     ],
     "labels": [
       "ACC",
@@ -210,7 +234,13 @@
       "DROA",
       "DROE",
       "Z BOOK",
-      "Z MKT"
+      "Z MKT",
+      "EVOL",
+      "Z-q",
+      "CFVOL",
+      "OSCORE",
+      "DISS",
+      "NPOP"
     ],
     "color": "#8a6d5b",
     "index": 9
